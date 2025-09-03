@@ -23,7 +23,7 @@ Anchor Framework (Program development & testing)
 
 Mocha/TypeScript (Anchor tests)
 
-
+## 📂 Project Structure  
 Solana-crowdfunding/
 ├── Anchor.toml # Anchor configuration file
 ├── Cargo.toml # Rust dependencies
@@ -36,6 +36,7 @@ Solana-crowdfunding/
 ├── tests/ # Anchor test files (TypeScript/Mocha)
 │ └── crowdfunding.ts
 └── README.md # Project documentation
+
 
 
 
