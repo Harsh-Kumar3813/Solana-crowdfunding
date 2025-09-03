@@ -25,15 +25,17 @@ Mocha/TypeScript (Anchor tests)
 
 
 Solana-crowdfunding/
-├── programs/             # Rust smart contracts
-│   └── crowdfunding/     
-│       └── src/lib.rs    # Main contract logic
-├── tests/                # Anchor test files (TypeScript)
-│   └── crowdfunding.ts
-├── migrations/           # Deployment scripts
-├── Anchor.toml           # Anchor configuration
-├── Cargo.toml            # Rust dependencies
-└── README.md             # Project documentation
+├── Anchor.toml # Anchor configuration file
+├── Cargo.toml # Rust dependencies
+├── migrations/ # Deployment scripts
+├── programs/ # Rust smart contract programs
+│ └── crowdfunding/
+│ ├── Cargo.toml
+│ └── src/
+│ └── lib.rs # Main smart contract logic
+├── tests/ # Anchor test files (TypeScript/Mocha)
+│ └── crowdfunding.ts
+└── README.md # Project documentation
 
 
 
@@ -55,6 +57,7 @@ Node.js (≥ 16) & Yarn/NPM
 🔧 Setup & Build
 # Clone the repo
 git clone https://github.com/Harsh-Kumar3813/Solana-crowdfunding.git
+
 cd Solana-crowdfunding
 
 # Install dependencies
